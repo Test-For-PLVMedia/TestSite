@@ -8,7 +8,7 @@ Want the best tip I can give you? If nothing is in here, GO TO YOUTUBE. It has h
 Formats
 -------
 
-[See Also: Video Formats](h.ljb6yjrnmdr0)
+[See Also: Video Formats](#h.ljb6yjrnmdr0)
 
 JPEG/.JPG - Compressed image, not recommended for use unless you have a specific workflow reason. Used for things that are printed off; also used for YouTube thumbnails (must be 200mb or smaller).
 
@@ -21,7 +21,7 @@ EXR - Likely only used for blender, stores much more data about the image, with 
 Colors
 ------
 
-(Also see: [Brand Identity -> Colors](h.3qf6m9ijbbq2))
+(Also see: [Brand Identity -> Colors](#h.3qf6m9ijbbq2))
 
 Monarchs HEX codes
 
@@ -155,7 +155,7 @@ Photoshop
 
 It’s kinda in the name. Photoshop is used to adjust an image, whether it would be a photo or another graphic. Need to adjust a photo’s color? Take it to Photoshop. Need to cut out a picture of someone for a graphic? Take it to Photoshop. Need to clean up a logo that someone sent you without a single drop of empathy for how we would feel having to clean it up. You guessed it, take it to Photoshop. It’s like Illustrator, but for left-brained, analytical, methodical people. It’s more organized, but it limits creativity when it comes to creating certain graphics. The creativity with Photoshop comes when you start editing a photo.
 
-Photoshop works in rasters ([see bunny example above](h.o1qns76qteau)). This means that if you zoom in on the raster bunny you will eventually see pixels of different colors that make up the image. These are essentially universal to use. You can put these in word documents, in videos in Premiere, and anywhere you may need them to be.
+Photoshop works in rasters ([see bunny example above](#h.o1qns76qteau)). This means that if you zoom in on the raster bunny you will eventually see pixels of different colors that make up the image. These are essentially universal to use. You can put these in word documents, in videos in Premiere, and anywhere you may need them to be.
 
 #### Pros of Photoshop
 
