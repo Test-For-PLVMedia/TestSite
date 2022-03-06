@@ -95,7 +95,7 @@ Editing & Distribution
 *   Also editing the photos is also very important as after games we will use some of those photos to put out stat graphics for the athletes.
 *   PRIORITIZE athletes who play the first games
 
-*   In order to use the new glitch transition you will have to install a preset into Premiere. [See this section of the guide on how to install a preset.](h.1mhv4uau4noj)
+*   In order to use the new glitch transition you will have to install a preset into Premiere. [See this section of the guide on how to install a preset.](h.1mhv4uau4noj#installing-a preset into premiere)
 *   Download the ‘20 GLITCH TRANSITIONS - CINECOM.NET’ preset
 *   Once you have installed the preset, cut down a section from the beginning of your footage, and the same with the end of your footage. Make sure they are relatively the same duration.
 *   Open the Effects tab

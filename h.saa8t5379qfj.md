@@ -20,7 +20,7 @@ In total, you need to wire up:
 
 *   It’s the main power cable coming out the back of the MOAC. Plug it into the wall.
 
-*   [Network](h.saa8t5379qfj) (Link to images and further explanation)
+*   [Network](h.saa8t5379qfj#network-switch & access point) (Link to images and further explanation)
 
 *   Taking the building’s ethernet from a wall, plug it into the WAN1 port on the front.
 
@@ -44,11 +44,11 @@ In total, you need to wire up:
 *   Use the SDI coming from the [output patch panel](#id.xptcmhybmajf) to plug in cameras.
 *   Switcher control surface’s Program Out goes to the input patch panel’s “SW IN”
 
-*   [X32](h.saa8t5379qfj) (Audio, click link for detailed setup)
+*   [X32](h.saa8t5379qfj#setup) (Audio, click link for detailed setup)
 
 *   Connect audio to the back of the MOAC, using the audio patch panel.
 
-You’ll also need to [turn on the UPS](h.saa8t5379qfj).
+You’ll also need to [turn on the UPS](h.saa8t5379qfj#turning-on).
 
 Once everything is plugged in, ensure that everything else (replay, wirecast, X32) is turned on. If something isn’t turned on in the MOAC, open up its front panel and flip the power switch.
 
@@ -60,23 +60,23 @@ Mainly, you’ve got:
 
 *   Switcher + Laptop
 
-*   [Load in the Configuration](h.saa8t5379qfj) (if needed—in some cases you won’t have to do this)
+*   [Load in the Configuration](h.saa8t5379qfj#loading-and saving switcher configuration) (if needed—in some cases you won’t have to do this)
 
 *   Only do this if you are using a special replay animation (which you should be doing at most sports matches)
 
 *   Wirecast
 
-*   [Wirecast Setup](h.k6vpdgk5q6kp)
-*   [Restream.io and output settings](h.saa8t5379qfj)
-*   [Titler setup](h.saa8t5379qfj)
+*   [Wirecast Setup](h.k6vpdgk5q6kp#gfx/wirecast)
+*   [Restream.io and output settings](h.saa8t5379qfj#restream.io)
+*   [Titler setup](h.saa8t5379qfj#titler)
 
 *   Replay
 
-*   [Setting up Replay](h.saa8t5379qfj)
+*   [Setting up Replay](h.saa8t5379qfj#setup-- creating a replay file)
 
 *   HyperDeck
 
-*   [Start Recording](h.saa8t5379qfj)
+*   [Start Recording](h.saa8t5379qfj#start-a recording)
 
 General Layout and Case Setup
 -----------------------------
@@ -89,17 +89,17 @@ Going from top to bottom, the MOAC is made up of:
 
 *   Computer Patch Panel (HDMI, USB, etc.)
 *   Power Bar
-*   [Hyperdeck](h.saa8t5379qfj)
+*   [Hyperdeck](h.saa8t5379qfj#hyperdeck)
 
-*   [The Hub](h.saa8t5379qfj)
-*   [X32](h.saa8t5379qfj)
-*   [Wirecast (+ Graphics)](h.saa8t5379qfj)
-*   [Network Switch](h.saa8t5379qfj)
-*   [Replay](h.saa8t5379qfj)
+*   [The Hub](h.saa8t5379qfj#the-hub)
+*   [X32](h.saa8t5379qfj#x32-audio rack)
+*   [Wirecast (+ Graphics)](h.saa8t5379qfj#wirecast)
+*   [Network Switch](h.saa8t5379qfj#network-switch & access point)
+*   [Replay](h.saa8t5379qfj#replay-(3play) deck)
 *   Drawer
-*   [UPS (Uninterruptible Power Supply)](h.saa8t5379qfj)
+*   [UPS (Uninterruptible Power Supply)](h.saa8t5379qfj#uninterruptible-power supply (ups))
 
-On the backside, all you need to worry about are the [patch panels](h.saa8t5379qfj). ![](images/image40.png)
+On the backside, all you need to worry about are the [patch panels](h.saa8t5379qfj#patch-panels). ![](images/image40.png)
 
 The top patch panel (CAM1 through RPLY) is the “Camera Output” patch panel. This is the patch panel you use to get video OUT to the switcher. \[aka “Output Patch Panel”\]
 
@@ -220,7 +220,7 @@ Find:
 *   Black cables 1 and 2 (labeled on the end of the XLR)
 *   Red cable A
 
-Plug black cables 1 and 2 into COM1 and COM2 on the back of MOAC ([audio patch panel](h.saa8t5379qfj)), respectively. Plug red cable A into TLKBK.
+Plug black cables 1 and 2 into COM1 and COM2 on the back of MOAC ([audio patch panel](h.saa8t5379qfj#patch-panels)), respectively. Plug red cable A into TLKBK.
 
 Now, you must connect the X32 to the switcher. Using two XLR cables (not the cable snake), connect SW L and SW R from the audio patch panel to the switcher’s Analog Audio In 1 & 2, in the back.
 
@@ -235,18 +235,18 @@ For COMMENTATORS:
 
 For Ambient:
 
-*   If you’re using ambient into x32, see above. If you’re using a camera for ambient, ensure that the camera being used has “ON” on the switcher for audio, and adjust the relevant jog wheel ON SWITCHER. See [switcher audio](h.saa8t5379qfj) for more information.
+*   If you’re using ambient into x32, see above. If you’re using a camera for ambient, ensure that the camera being used has “ON” on the switcher for audio, and adjust the relevant jog wheel ON SWITCHER. See [switcher audio](h.saa8t5379qfj#audio) for more information.
 
 Wirecast
 --------
 
 Back when Wirecast got its name, that’s all we used it for—the program Wirecast. Now, even though we still call the physical box “Wirecast,” it has multiple purposes.
 
-You can find instructions for TitlerLive [here](h.saa8t5379qfj), and miscellaneous YouTube things [here](h.hhog2pau3l76).
+You can find instructions for TitlerLive [here](h.saa8t5379qfj#titler), and miscellaneous YouTube things [here](h.hhog2pau3l76#youtube).
 
 Restream.io is included in this section.
 
-This section is on creating templates, setting stuff up, etc.—technical details. For a regular stream, reference [Wirecast operating](h.k6vpdgk5q6kp).
+This section is on creating templates, setting stuff up, etc.—technical details. For a regular stream, reference [Wirecast operating](h.k6vpdgk5q6kp#gfx/wirecast).
 
 ### Restream.io
 
@@ -272,11 +272,11 @@ While physically a part of Wirecast, TitlerLive is a beast of its own.
 Switcher (ATEM TV Studio Pro 4K)
 --------------------------------
 
-If you want operational instruction, skip to the [operating](#h.a0o793m13mrk) section. These beginning sections deal primarily with configuration. I recommend taking a look at the [loading](h.saa8t5379qfj) instructions first though, so that you can load in the correct settings.
+If you want operational instruction, skip to the [operating](#h.a0o793m13mrk) section. These beginning sections deal primarily with configuration. I recommend taking a look at the [loading](h.saa8t5379qfj#loading-and saving switcher configuration) instructions first though, so that you can load in the correct settings.
 
 ### Network setup and configuration
 
-To connect ATEM setup to the switcher for configuring network settings, use a [USB 2.0 A to B](h.fglkqcvgontl) cable. You can then launch ATEM Setup, click on the switcher, and set network parameters (as well as device name).
+To connect ATEM setup to the switcher for configuring network settings, use a [USB 2.0 A to B](h.fglkqcvgontl#usb-types) cable. You can then launch ATEM Setup, click on the switcher, and set network parameters (as well as device name).
 
 As of December 2020, the network settings should be:
 
@@ -294,7 +294,7 @@ You can also configure this from the control surface menu by going to the settin
 
 Most of the time, you only need to do this if you are planning on using a game-specific replay graphic. If you aren’t, you can likely ignore this and move on with other setup.
 
-To load a configuration, first, ensure you are connected both to the [switcher](h.saa8t5379qfj) and to the server. Go to the menu bar, select “File -> Restore” and navigate to the Switcher folder in the server. Click on one of the setup folders (i.e. Basketball, Volleyball, etc.), click on the .xml file, and click Restore.
+To load a configuration, first, ensure you are connected both to the [switcher](h.saa8t5379qfj#network-setup and configuration) and to the server. Go to the menu bar, select “File -> Restore” and navigate to the Switcher folder in the server. Click on one of the setup folders (i.e. Basketball, Volleyball, etc.), click on the .xml file, and click Restore.
 
 Path: (PLV Media -> Switcher -> \[Game\] -> example.xml)
 
@@ -338,13 +338,13 @@ The pause time is measured in \[seconds\]:\[frames\], or you can select a user w
 
 You should be particularly computer-literate, and preferably know XML, before attempting this.
 
-To edit a macro, we have to edit our configuration file as a whole. First, [save](h.saa8t5379qfj) the configuration somewhere, and then locate it. Open it with any text editor, and find the heading <MacroPool>. It is beyond the scope of this project to detail the syntax, but the most common thing to change is time delays, and so the line for that is:
+To edit a macro, we have to edit our configuration file as a whole. First, [save](h.saa8t5379qfj#loading-and saving switcher configuration) the configuration somewhere, and then locate it. Open it with any text editor, and find the heading <MacroPool>. It is beyond the scope of this project to detail the syntax, but the most common thing to change is time delays, and so the line for that is:
 
 <Op id="MacroSleep" frames="\[NUMBER OF FRAMES\]"/>
 
 You can add this in or edit the frame number at leisure. For more advanced xml editing, you can find some community documentation [here](https://www.google.com/url?q=https://github.com/imorrish/ATEMConfigSnippets&sa=D&source=editors&ust=1646550169295673&usg=AOvVaw12NoDR9lFFKW3Z9emD4ymj).
 
-Once you [load the config back in](h.saa8t5379qfj), your macro will be edited.
+Once you [load the config back in](h.saa8t5379qfj#loading-and saving switcher configuration), your macro will be edited.
 
 ### Troubleshooting
 
@@ -354,7 +354,7 @@ Once you [load the config back in](h.saa8t5379qfj), your macro will be edited.
 
 [\[Playlist with all operation video examples\]](https://www.google.com/url?q=https://www.youtube.com/playlist?list%3DPLDdTRHGk2-VHekl2vE2OTNvZ2PZ_qt7cS&sa=D&source=editors&ust=1646550169296300&usg=AOvVaw3Mm0VZ8SITMC-oIi_VAYM6)
 
-First, ensure you have the proper switcher configuration [loaded in](h.saa8t5379qfj) for the event, and all cables are connected properly. You should have power and ethernet connected first. Use the camera output patch panel (the top one) and connect all your cameras and replay (Replay goes into CAM6 on switcher).
+First, ensure you have the proper switcher configuration [loaded in](h.saa8t5379qfj#loading-and saving switcher configuration) for the event, and all cables are connected properly. You should have power and ethernet connected first. Use the camera output patch panel (the top one) and connect all your cameras and replay (Replay goes into CAM6 on switcher).
 
 Have the final program video output going to the input patch panel connector labeled “SW IN.”
 
@@ -366,7 +366,7 @@ Hopefully, now you’ll see something like this (usually with more than just the
 
 The red row is the “Program” row - it dictates what’s directly being output.
 
-It’s fairly self-explanatory, the button labeled “1” will be Camera 1, “2” is Cam 2, etc. All other mappings can be edited and found in [configuring routing](h.saa8t5379qfj). We usually have replay mapped to “Camera 6”.
+It’s fairly self-explanatory, the button labeled “1” will be Camera 1, “2” is Cam 2, etc. All other mappings can be edited and found in [configuring routing](h.saa8t5379qfj#configuring-switcher multiview & routing ). We usually have replay mapped to “Camera 6”.
 
 [Video example for program row.](https://www.google.com/url?q=https://youtu.be/pJGsH0jxYYk&sa=D&source=editors&ust=1646550169297274&usg=AOvVaw0xY45iazHbYl2UVfE9BcL7)
 
@@ -391,7 +391,7 @@ We use fades for:
 
 #### Macros
 
-Assuming that you either are using a [loaded in](h.saa8t5379qfj) setup with a macro, or you’ve [created](h.saa8t5379qfj) a macro, all you have to do to trigger it from the control surface is hit the “macro” key (located at the rightmost side of the row above the program keys), and then hit its corresponding number. (On the row directly below that).
+Assuming that you either are using a [loaded in](h.saa8t5379qfj#loading-and saving switcher configuration) setup with a macro, or you’ve [created](h.saa8t5379qfj#creating-and using macros) a macro, all you have to do to trigger it from the control surface is hit the “macro” key (located at the rightmost side of the row above the program keys), and then hit its corresponding number. (On the row directly below that).
 
 [Macro Example.](https://www.google.com/url?q=https://youtu.be/NahRnWEBVew&sa=D&source=editors&ust=1646550169298801&usg=AOvVaw2ogfW6EEK4GdTWliYwVYTO) (The zooming in on screens indicates that you don’t have to switch to the replay camera manually—it switches for you from whatever camera you’re already on.)
 
@@ -421,7 +421,7 @@ Replay is exactly what it sounds like—it’s the system we use to get replays 
 
 ### Setup - Creating a Replay File
 
-This section assumes you have everything properly hooked up and a drive in \[See: [Cables and Connections](h.saa8t5379qfj) & the above section\].
+This section assumes you have everything properly hooked up and a drive in \[See: [Cables and Connections](h.saa8t5379qfj#cables-and connections) & the above section\].
 
 After startup, you should be on the 3Play software screen.
 
