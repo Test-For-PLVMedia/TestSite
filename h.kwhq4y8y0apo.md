@@ -22,7 +22,7 @@ Setting up During a Stream
 
 10.  Connect the PROG SDI BNC port on the switcher (right side) to the Wirecast input BNC port (wirecast only has one BNC port, it’s that one).
 11.  Plug cameras into Switcher (left side, read labels).
-12.  Reference [Wirecast operating](#h.8f6jnighke35) for Wirecast software setup.
+12.  Reference [Wirecast operating](h.k6vpdgk5q6kp) for Wirecast software setup.
 13.  Operate Switcher on laptop \[TODO: Link to section\]
 
 ### Tearing Down
@@ -46,14 +46,14 @@ General Layout and Case Setup
 
 ![](images/image81.png)
 
-Above you can see the internal connection layout of the BOAC. See [Connections](#h.cmf4ipk4m8bg) for more information on what you need to connect.
+Above you can see the internal connection layout of the BOAC. See [Connections](h.kwhq4y8y0apo) for more information on what you need to connect.
 
 Connections
 -----------
 
 To get the BOAC up and running, you will need to connect:
 
-*   Network (detailed above in [Setting up During a Stream](#h.x8s3v51tqysz))
+*   Network (detailed above in [Setting up During a Stream](h.kwhq4y8y0apo))
 *   Cameras to Switcher
 *   Power to Wirecast (we unplug this because it doesn’t fit in the case).
 *   Switcher PROG OUT to Hyperdeck (this is the light blue cable coming from the top)
@@ -62,6 +62,6 @@ To get the BOAC up and running, you will need to connect:
 Switcher - ATEM TV Studio
 -------------------------
 
-Everything is effectively the same as the [MOAC](#h.o4vwz0fr8yte), just instead of using the physical switcher control surface you use the virtual one on the laptop.
+Everything is effectively the same as the [MOAC](h.saa8t5379qfj), just instead of using the physical switcher control surface you use the virtual one on the laptop.
 
 * * *
